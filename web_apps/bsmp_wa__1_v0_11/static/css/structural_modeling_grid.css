@@ -1,0 +1,76 @@
+body {
+	padding-top: 10px;
+	background-color: lightgrey;
+}
+
+.structural_modeling_grid {
+	padding: 20px 15px;
+	text-align: center;
+}
+
+.menu_bar {
+	padding: 25px 25px;
+	text-align: left;
+	background-color: lightblue;
+
+}
+
+#initButton {
+    margin-left: 5px
+}
+
+#BSMP_1 {
+    border: 2px solid black;
+    background-color: lightgrey;		
+}
+
+#BSMP_2 {
+    border: 2px solid black;
+    background-color: lightgrey;
+    		
+}
+
+#BSMP_3 {
+	border: 2px solid black;
+    background-color: lightgrey;
+    margin-left: 5px;
+    top: 60px;
+    
+
+}
+
+#main {
+	width: 798px;
+	margin:0;
+	background-color: lightgrey;
+
+}
+
+#header {
+	width: 798px;
+	height:60px;
+	margin: auto;
+	background-color: lightblue;
+}
+
+#rightList {
+	float:left;
+	width: 35px;
+	height:450px;
+
+}
+
+#display {
+	float:left;
+	width: 430px;
+	height:450px;
+	background-color: lightgrey;
+}
+
+#input {
+	float:right;
+	width:368px;
+	height:450px;
+	margin:auto;
+	background-color: lightgrey;
+}
