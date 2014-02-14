@@ -7,7 +7,7 @@ bsmp
 
 >1. Problem Definition Report (BSMP_PDR.pdf)
 >2. Conceptual Solution Report (BSMP_CSR.pdf, BSMP_CSR_A.pdf)
->3. Detailed Design Report
+>3. Detailed Design Report (Not Available yet -- In Work)
 
 #### Problem Definition Report
 
