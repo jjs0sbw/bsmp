@@ -5,8 +5,8 @@ bsmp
 
 >The Basic Structural Modeling Project (BSMP) addressing the structural modeling activities developed by John N. Warfield and extended by Joseph Simpson and Mary Simpson.  The project is discussed, analyzed and developed in the context of three high level documents.  These high level documents are:
 
->1. Problem Definition Report
->2. Conceptual Solution Report
+>1. Problem Definition Report (BSMP_PDR.pdf)
+>2. Conceptual Solution Report (BSMP_CSR.pdf, BSMP_CSR_A.pdf)
 >3. Detailed Design Report
 
 #### Problem Definition Report
