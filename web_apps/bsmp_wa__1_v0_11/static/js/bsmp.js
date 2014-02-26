@@ -292,8 +292,8 @@
  //################################################################################################
  
  function noSwapRC() {
- 	document.getElementById("one").value = "NONE";
- 	document.getElementById("two").value = "NONE";
+ 	document.getElementById("one").value = "N";
+ 	document.getElementById("two").value = "N";
  	document.getElementById("northTrue").style.display="none";
     document.getElementById("northFalse").style.display="none";
 
@@ -643,8 +643,8 @@
 	
 	//############# draw code end ###########
 	
-	document.getElementById("one").value = "NONE";
- 	document.getElementById("two").value = "NONE";
+	document.getElementById("one").value = "N";
+ 	document.getElementById("two").value = "N";
  	document.getElementById("northTrue").style.display="none";
     document.getElementById("northFalse").style.display="none";
  }
