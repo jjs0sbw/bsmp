@@ -51,6 +51,13 @@
 			
 			initGrid(canvas, context, canvas_1, context_1, canvas_2, context_2, gridText, vNames);	
 			
+			document.getElementById("one").value = "N";
+ 	        document.getElementById("two").value = "N";
+			document.getElementById("moveData").style.display="none";
+			document.getElementById("northTrue").style.display="none";
+            document.getElementById("northFalse").style.display="none";
+			
+			
 			//writeToDocOne("New stuff for the doc.. -- time to clean stuff up");		
  	
     }
