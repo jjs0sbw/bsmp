@@ -284,6 +284,9 @@
  		}
  		document.getElementById("northTrue").style.display="inline";
  		document.getElementById("northFalse").style.display="inline";
+ 		document.getElementById("entryButton").style.display="none";
+        document.getElementById("processButton").style.display="none";
+        document.getElementById("inferenceButton").style.display="none";
  		
  		//writeToDocOne(gridColor.inspect());		
  	}
@@ -303,6 +306,9 @@
  	document.getElementById("two").value = "N";
  	document.getElementById("northTrue").style.display="none";
     document.getElementById("northFalse").style.display="none";
+    document.getElementById("entryButton").style.display="inline";
+    document.getElementById("processButton").style.display="inline";
+    document.getElementById("inferenceButton").style.display="inline";
 
  }
  
@@ -654,6 +660,9 @@
  	document.getElementById("two").value = "N";
  	document.getElementById("northTrue").style.display="none";
     document.getElementById("northFalse").style.display="none";
+    document.getElementById("entryButton").style.display="inline";
+    document.getElementById("processButton").style.display="inline";
+    document.getElementById("inferenceButton").style.display="inline";
  }
  
  
