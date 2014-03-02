@@ -24,6 +24,8 @@
  var vNames;
  
  window.onload = function() {
+                    document.getElementById("one").value = "N";
+ 	                document.getElementById("two").value = "N";
  					document.getElementById("northTrue").style.display="none";
  					document.getElementById("northFalse").style.display="none";
  					document.getElementById("moveData").style.display="none";
