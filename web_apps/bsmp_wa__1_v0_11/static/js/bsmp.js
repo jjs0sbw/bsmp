@@ -667,6 +667,18 @@
     document.getElementById("inferenceButton").style.display="inline";
  }
  
- 
+ //################################################################################################
+ //################################################################################################
+ //
+ //   A function to detect the presence of a one (1) in the upper triangular area
+ //   -- If there are no ones (1) in the upper triangular area, 
+ //   -------- then the inference button is displayed for use
+ //   -- If there are ones (1) in the upper triangular area ,
+ //   -------- then the process button is displayed.
+ //
+ //   Adds tighter process logic to the GUI interface
+ //
+ //################################################################################################
+ //################################################################################################
  
  
