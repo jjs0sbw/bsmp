@@ -691,5 +691,7 @@
  // If the sum of the adding operation is greater than zero (0) return false.
  // If the sum of the adding operation is equal to zero (0) return true
  
- function scan_upper_for_ones():
+ function scan_upper_for_ones() {
      pass
+     
+ }    
