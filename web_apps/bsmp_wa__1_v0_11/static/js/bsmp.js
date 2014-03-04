@@ -681,4 +681,15 @@
  //################################################################################################
  //################################################################################################
  
+ // scan_upper_for_ones returns true if a 1 is found, false otherwise
+ // all the matrix diagonal entries are zero (0), so the matrix may be correctly 
+ // scanned by starting with entry 0,0 and adding all the values in the first row (0).
+ // Then proceed with scanning row two (2) at 1,1 and add all elements in column 1 to 19.
+ // Then scan row three (3) starting at 2,2 and add all elements in  columns 2 to 19.
+ // Next scan row four (4) starting at 3,3 and add all elements in columns 3 to 19.
+ // Continue scanning each row and adding the elements in the selected columns.
+ // If the sum of the adding operation is greater than zero (0) return false.
+ // If the sum of the adding operation is equal to zero (0) return true
  
+ function scan_upper_for_ones():
+     pass
