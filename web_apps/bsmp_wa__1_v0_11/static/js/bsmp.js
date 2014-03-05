@@ -58,32 +58,10 @@
 			document.getElementById("moveData").style.display="none";
 			document.getElementById("northTrue").style.display="none";
             document.getElementById("northFalse").style.display="none";
-			
-			
-			//writeToDocOne("New stuff for the doc.. -- time to clean stuff up");		
+					
  	
     }
-    /*
-    function writeToDoc(message)  {
-    		  document.getElementById("textOutOne").innerHTML = message; 
-    }
-    
-    function writeToDocOne(message) {
-    		document.getElementById("textOutOne").innerHTML = message;
-    }*/
-    
-    function writeToDocTwo(message) {
-    		document.getElementById("textOutTwo").innerHTML = message;
-    }
-    
-    function writeToDocThree(message) {
-    		document.getElementById("textOutThree").innerHTML = message;
-    }
-    
-    function writeToDocFour(message) {
-    		document.getElementById("textOutFour").innerHTML = message;
-    }
-
+   
     
 //################################################################################################
  //################################################################################################
@@ -692,6 +670,6 @@
  // If the sum of the adding operation is equal to zero (0) return true
  
  function scan_upper_for_ones() {
-     pass
+   // add code here  
      
  }    
