@@ -21,9 +21,9 @@ bsmp
 
 >The BSMP Detailed Design Report provides an example design solution for the 19 cities problem.  This document is organized around the elements of an abstract relation type that contains the prose, graphics and mathematics necessary to clearly communicate the solution approach and context.
 
-#### BSMP Web Application One
+#### Sage Math
 
->The BSMP web application one (BWA1) is a basic web application focused on the 19 cities problem that is used to demonstrate the features and processes associated with basic structural modeling, structural integration modeling and interpretive structural modeling.  BWA1 is the first of a series of web applications that each focus on a specific structural modeling appraoch.  BWA1 focuses on ordering a set of 19 cities using the natural language relationship is "north-of."  Only one city can occupy any specific latitude whichs creates a strict subordination matrix.  After the application folder is downloaded, open the folder and click on the index.html file to open it with your defaul browser.  The application has been tested with Firefox and Chrome.
+> The primary components of the mathematics of structure are contained in Sage math notebooks in this directory. The directory is currently empty.
 
 #### Tests 
 
@@ -34,3 +34,7 @@ bsmp
 >The web_test_one_script file is a Firefox Selenium 2.4.0 test case script that runs the 19 city test case.
 
 >The Random_City_Sage_Worksheet file contains the Sage worksheet for random city generation.
+
+#### Web Applications
+
+>The BSMP web application one (BWA1) is a basic web application focused on the 19 cities problem that is used to demonstrate the features and processes associated with basic structural modeling, structural integration modeling and interpretive structural modeling.  BWA1 is the first of a series of web applications that each focus on a specific structural modeling appraoch.  BWA1 focuses on ordering a set of 19 cities using the natural language relationship is "north-of."  Only one city can occupy any specific latitude whichs creates a strict subordination matrix.  After the application folder is downloaded, open the folder and click on the index.html file to open it with your defaul browser.  The application has been tested with Firefox and Chrome.
