@@ -72,6 +72,11 @@ BSMP.VecBin.l = function(n) {
     }
     return index;
   },
+  
+   view: function() {
+    return '[' + this.elements.join(', ') + ']';
+  },
+
  
  setElements: function(els) {
     this.elements = (els.elements || els).slice();
@@ -301,6 +306,16 @@ BSMP.MatrixBin.Id = function(n) {
       this.elements.push([elements[i]]);
     }
     return this;
+  },
+  
+   view: function() {
+    var matrix_rows = [];
+    var n = this.elements.length;
+    if (n === 0) return '[]';
+    for (var i = 0; i < n; i++) {
+      matrix_rows.push(BSMP.VecBin.new_one(this.elements[i]).view());
+    }
+    return matrix_rows.join('<br>');
   },
  
 };

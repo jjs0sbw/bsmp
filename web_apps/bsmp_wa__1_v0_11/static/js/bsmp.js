@@ -58,6 +58,14 @@
 			document.getElementById("moveData").style.display="none";
 			document.getElementById("northTrue").style.display="none";
             document.getElementById("northFalse").style.display="none";
+            
+            //write out gridText 
+            //writeToDocOne(gridText.view());		
+            
+            function writeToDocOne(message) {
+    		document.getElementById("test_out").innerHTML = message;
+    }
+					
 					
  	
     }
