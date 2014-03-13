@@ -23,7 +23,8 @@ bsmp
 
 #### Sage Math
 
-> The primary components of the mathematics of structure are contained in Sage math notebooks in this directory. The directory is currently empty.
+> The primary components of the mathematics of structure are contained in Sage math notebooks in this directory.
+ Sage worksheet number 4 contains the decimal to Boolean mapping transform.
 
 #### Tests 
 
