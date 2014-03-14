@@ -678,6 +678,18 @@
  // If the sum of the adding operation is equal to zero (0) return true
  
  function scan_upper_for_ones() {
-   // add code here  
+     var num = 19;
+     var sum = 0;
+     var value = 0;
+     for (var i = 0; i < num; i++) {
+     	for(var j = 0; j <= i; j++) {
+     		value = gridText.elements[i,j];
+     		sum = parseInt(sum) + parseInt(value);
+     	}
+      
+    }
+ 
+     return sum;
+     
      
  }    
