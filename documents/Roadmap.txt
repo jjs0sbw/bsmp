@@ -1,0 +1,26 @@
+Project Development and Transition Roadmap
+
+The Basic Structural Modeling Project (BSMP) is the first part of a larger effort.
+
+The BSMP focuses on the foundational mathematics and application of the mathematics to 
+specific types of structural modeling problems.  The Sage math workbooks, project reports
+and the first web application comprise the BSMP artifacts.
+
+The Structural Modeling Project (SMP) will be the next project after the BSMP and will focus on
+the application of the methods and techniques developed in the BSMP phase.  The SMP will
+produce a set of web based software applications that are each focused on a specific type 
+of structural modeling structure.  The general application development list is:
+
+1 - Strict-subordination ordering (only one element at each level) (BSMP)
+2 - General-subordination ordering (one or more elements at each level) (SMP)
+3 - Central-uniform clustering (cluster objects around the matrix diagonal - 
+all connection weights the same) (SMP)
+4 - Lower-triangular clustering (cluster objects in the lower triangular region of the 
+matrix - all connection weights the same) (SMP)
+5 - Upper-triangular clustering (cluster objects in the upper triangular region of the 
+matrix - all connection weight  the same) (SMP)
+
+After this set of applications are complete, the Structural Integration Modeling 
+Project (SIMP) will start.  The SIMP will focus on creating a programatic framework that
+integrates, supports and expands the all of the structural modeling elements developed to 
+date as well as the development of more advanced structural modeling elements.  
