@@ -8,7 +8,7 @@ and the first web application comprise the BSMP artifacts.
 
 The Structural Modeling Project (SMP) will be the next project after the BSMP and will focus on
 the application of the methods and techniques developed in the BSMP phase.  The SMP will
-produce a set of web based software applications that are each focused on a specific type 
+produce a set of web based software applications, each of which focuses on a specific type 
 of structural modeling structure.  The general application development list is:
 
 1 - Strict-subordination ordering (only one element at each level) (BSMP)
