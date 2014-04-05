@@ -179,7 +179,7 @@
 	}
 	
 	
-	function initGrid(canvas, context, canvas_1, context_1, canvas_2, context_2) { // remove vNames, gridText
+	function initGrid(canvas, context, canvas_1, context_1, canvas_2, context_2) { 
         var x;
         var y;  
         var cellSize = 20; // should be in global function
